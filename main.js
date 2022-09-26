@@ -1,4 +1,4 @@
-import API_KEY from './apikey.js'
+import API_KEY from './apikey.js';
 let bringingMyPictureContainer = document.getElementById('myPictureContainer');
 const API_URL_RANDOM = `https://api.thedogapi.com/v1/images/search?limit=4`;
 const API_URL_FAVOURITE = `https://api.thedogapi.com/v1/favourites?api_key=${API_KEY}`;
