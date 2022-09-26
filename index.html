@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs pictures</title>
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/6384ca2ff3.js" crossorigin="anonymous"></script>
+    <!-- toastify.js -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <div class="animation-area">
+                <ul class="box-area">
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bone icon-style"></i>
+                    <li>
+                        <i class="fa-solid fa-paw icon-style"></i>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container main-container">
+                <h1 class="main-title">RANDOM DOG PICTURES</h1>
+                <div id="myPictureContainer">
+
+                </div>
+                <span id="catchErrorRandomDogs" class="callingTheErrorContainer">
+
+                </span>
+            </div>
+            <section id="uploadingDogs">
+    
+                <h2>UPLOAD THE PICTURE OF YOUR BUDDY</h2>
+
+                <form id="uploadingForm">
+                    <input id="file" type="file" name="file" class="form-upload__input-button--style" />
+                    <button type="button" onclick="uploadDogPicture()"
+                        class="form-upload__input-button--style">Upload picture of the Dog</button>
+                </form>
+            </section>
+            <article>
+                <h2 class="favourite-title__container--position">MY FAVOURITES DOGS PICTURES</h2>
+                <div id="favouritesDogsPictures" class="container-favourite__main--flex-direction">
+
+                </div>
+
+            </article>
+            <span id="catchErrorFavouritesDogs" class="callingTheErrorContainer">
+
+            </span>
+            </article>
+        </section>
+    </main>
+    <footer id="moreInfo">
+        <section class="container-sm footer__info--position">
+            <div class="col">
+                <div class="row index-footer">
+                    <div class="col footer__briefcase-social-media--style">
+                        <img src="./img/briefcase_picture.jpg" class="container__picture--size-style" alt="">
+                    </div>
+                    <div class="col footer__brief-case-names-logo-container__flex">
+                        <h2 class="text-center footer__name-text--font-style">MIGUEL VARON RAMIREZ.</h2>
+                        <h6 class="text-center footer__name-text--font-style">FRONT-END DEVELOPER</h6>
+                        <img src="./img/logo_marca_personal_v2.png" class="container__logo--size-style" alt="">
+                    </div>
+                    <div class="col footer__container-social-media-icons--style">
+                        <ul class="footer__social-media-list--style">
+                            <li>
+                                <a href="https://www.instagram.com/miguelalejovaron/">
+                                    <lottie-player
+                                        src="https://lottie.host/4a38da40-d876-45db-9f55-deb5e42584bc/J4Tqw60hnr.json"
+                                        background="transparent" speed="1" style="width: 60px; height: 60px;" loop
+                                        autoplay></lottie-player>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <lottie-player
+                                        src="https://lottie.host/d95a13f9-61e9-4762-9281-10f3f4d5b408/ibeqls2HjY.json"
+                                        background="transparent" speed="1" style="width: 60px; height: 60px;" loop
+                                        autoplay></lottie-player>
+                                </a>
+                            </li>
+                            <li>
+                                <button class="footer-mail__button--styles" type="click" onclick="clickMailEvent()">
+                                    <lottie-player
+                                        src="https://lottie.host/89df6a66-07d6-43d4-b73d-d79d57fb119e/D0VRLuAQ6Y.json"
+                                        background="transparent" speed="1" style="width: 60px; height: 60px;" loop
+                                        autoplay></lottie-player>
+                                </button>
+                            </li>
+                            <li>
+                                <a href="https://github.com/miguelalejovaron">
+                                    <lottie-player
+                                        src="https://lottie.host/8b3ef114-d918-4add-ab1c-cf3c78666ac9/MdpzF7Tt37.json"
+                                        background="transparent" speed="1" style="width: 60px; height: 60px;" loop
+                                        autoplay></lottie-player>
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="iFClickInMail">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- ANIMACIONES -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- toastify-js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- MY JS -->
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
